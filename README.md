@@ -1,0 +1,3 @@
+# Olizia.Libraries.DesignPatterns.Notification
+
+This package implement the Notification Pattern using containers to divide the work of consumer and publisher. Produced by [Otávio Villas Boas Simoncini Carmanini](https://www.linkedin.com/in/otaviovillasboas/), this package was created for use in all types of projects that need to send notifications. The abstraction for this package is in [Olizia.Libraries.DesignPatterns.Notification.Abstractions](https://github.com/Olizia/Olizia.Libraries.DesignPatterns.Notification.Abstractions)

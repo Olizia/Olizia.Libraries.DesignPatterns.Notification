@@ -6,9 +6,9 @@ namespace Olizia.Libraries.DesignPatterns.Notification.Consumers;
 
 public class NotificationConsumerTyped : INotificationConsumer<NotificationItemTyped>
 {
-    private NotifiableContainerBase<NotificationItemTyped> _notifiableContainer;
+    private INotifiableContainer<NotificationItemTyped> _notifiableContainer;
 
-    public NotificationConsumerTyped(NotifiableContainerBase<NotificationItemTyped> notifiableContainer)
+    public NotificationConsumerTyped(INotifiableContainer<NotificationItemTyped> notifiableContainer)
     {
         _notifiableContainer = notifiableContainer;
     }

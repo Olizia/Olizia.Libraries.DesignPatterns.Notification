@@ -6,9 +6,9 @@ namespace Olizia.Libraries.DesignPatterns.Notification.Publishers;
 
 public class NotificationPublisherTyped : INotificationPublisher<NotificationItemTyped>
 {
-    private NotifiableContainerBase<NotificationItemTyped> _notifiableContainer;
+    private INotifiableContainer<NotificationItemTyped> _notifiableContainer;
 
-    public NotificationPublisherTyped(NotifiableContainerBase<NotificationItemTyped> notifiableContainer)
+    public NotificationPublisherTyped(INotifiableContainer<NotificationItemTyped> notifiableContainer)
     {
         _notifiableContainer = notifiableContainer;
     }
